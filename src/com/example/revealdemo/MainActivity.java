@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 
 public class MainActivity extends Activity {
-
 	private GallaryHorizontalScrollView hsv;
 	private int[] unSelectedIds = { R.drawable.avft, R.drawable.box_stack,
 			R.drawable.bubble, R.drawable.rectangle };
