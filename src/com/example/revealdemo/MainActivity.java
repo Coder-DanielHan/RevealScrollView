@@ -2,6 +2,7 @@ package com.example.revealdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 	private GallaryHorizontalScrollView hsv;
@@ -11,6 +12,7 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Log.e("gaga", "gaga");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		hsv = (GallaryHorizontalScrollView) findViewById(R.id.hsv);
