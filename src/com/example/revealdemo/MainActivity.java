@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
-		Log.e("fafa", "gaga");
+		Log.e("gsgsgs", "gaga");
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		hsv = (GallaryHorizontalScrollView) findViewById(R.id.hsv);
