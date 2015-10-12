@@ -12,6 +12,8 @@ public class MainActivity extends Activity {
 			R.drawable.rectangle_active };
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		hsv = (GallaryHorizontalScrollView) findViewById(R.id.hsv);
